@@ -16,7 +16,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-    <ta.cucumber.runner.version>1.1.0-RELEASE</ta.cucumber.runner.version>
+    <ta.cucumber.runner.version>1.2.0.IT2</ta.cucumber.runner.version>
   </properties>
 
   <dependencies>
@@ -43,6 +43,11 @@
       <version>4.2.6</version>
       <scope>test</scope>
     </dependency>
+	<dependency>
+	  <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-java8</artifactId>
+      <version>4.2.6</version>
+	</dependency>
     <dependency>
       <groupId>org.assertj</groupId>
       <artifactId>assertj-core</artifactId>
