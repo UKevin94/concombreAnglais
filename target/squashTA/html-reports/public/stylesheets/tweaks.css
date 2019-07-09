@@ -61,3 +61,24 @@
 .subscript-header h4{
     padding: 0 0.7em;
 }
+
+/* [SQTA-145] */
+/* Dynamique change of <summary> between Display and Hide in Gherkin reports */
+
+.script summary:after {
+   content: "Display";
+}
+.script details[open] summary:after {
+   content: "Hide";
+}
+
+.subscript details:not([open]) summary:after {
+   content: "Display";
+}
+.subscript details[open] summary:after {
+   content: "Hide";
+}
+
+
+
+

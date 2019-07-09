@@ -5,6 +5,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -26,6 +27,15 @@ public class AnnotationSteps {
         c = 11;
     }
 
+	@Given("the concombre is split in ff")
+    public void the_concombre_is_split_in_ff() {
+        driver = new ChromeDriver();
+        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+        driver.get("https://squash-tf.readthedocs.io/en/latest/");
+        a = 5;
+        c = 11;
+    }
+	
     @When("i throw it in the trashbin")
     public void i_throw_it_in_the_trashbin() throws InterruptedException {
         Thread.sleep(30);

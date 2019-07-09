@@ -1,4 +1,4 @@
-Feature: Fookin concombre
+Feature: Salade de concombre
 
   Scenario: What to do when concombre is broken
     Given the concombre is split in half

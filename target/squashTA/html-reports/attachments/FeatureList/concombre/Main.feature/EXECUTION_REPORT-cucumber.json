@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4971369700,
+              "duration": 5971335800,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 29878100,
+              "duration": 30253100,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 2099652100,
+              "duration": 2099947200,
               "status": "passed"
             },
             "line": 6,
@@ -53,7 +53,7 @@
     "description": "",
     "id": "fookin-concombre",
     "keyword": "Feature",
-    "uri": "concombre/Main.feature",
+    "uri": "classpath:concombre/Main.feature",
     "tags": []
   }
 ]
