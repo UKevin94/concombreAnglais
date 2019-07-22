@@ -22,7 +22,7 @@ public class AnnotationSteps {
     public void the_concombre_is_split_in_half() {
         driver = new ChromeDriver();
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-        driver.get("https://www.google.fr");
+        driver.get("http://127.0.0.1:8080");
         a = 5;
         c = 11;
     }
