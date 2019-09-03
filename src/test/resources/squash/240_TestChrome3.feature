@@ -1,8 +1,5 @@
-# Automation priority: null
-# Automation status: TRANSMITTED
-# Test case importance: LOW
 # language: en
-Feature: Salade de concombre3
+Feature: Salade de concombredss
 
   Scenario: What to do when concombre is broken
     Given the concombre is split in half
