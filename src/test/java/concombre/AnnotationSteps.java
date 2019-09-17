@@ -44,7 +44,7 @@ public class AnnotationSteps {
 
     @Then("it burn itself")
     public void it_burn_itself() {
-        driver.close();
+        //driver.quit();
         Assert.assertTrue(c==(a+b));
     }
 
