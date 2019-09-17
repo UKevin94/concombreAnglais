@@ -24,12 +24,12 @@ public class AnnotationSteps {
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.get("http://127.0.0.1:8080");
         a = 5;
-        c = 1;
+        c = 11;
     }
 
 	@Given("the concombre is split in ff")
     public void the_concombre_is_split_in_ff() {
-        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.get("https://squash-tf.readthedocs.io/en/latest/");
         a = 5;
