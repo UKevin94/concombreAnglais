@@ -18,15 +18,16 @@ public class AnnotationSteps {
     int b;
     int c;
 
+	//KO
     @Given("the concombre is split in half")
     public void the_concombre_is_split_in_half() {
         driver = new ChromeDriver();
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.get("http://127.0.0.1:8080");
-        a = 5;
+        a = 6;
         c = 11;
     }
-
+	//OK
 	@Given("the concombre is split in ff")
     public void the_concombre_is_split_in_ff() {
         driver = new FirefoxDriver();
@@ -44,7 +45,7 @@ public class AnnotationSteps {
 
     @Then("it burn itself")
     public void it_burn_itself() {
-        //driver.quit();
+        driver.quit();
         Assert.assertTrue(c==(a+b));
     }
 
