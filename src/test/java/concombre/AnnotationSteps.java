@@ -31,7 +31,7 @@ public class AnnotationSteps {
 	@Given("the concombre is split in ff")
     public void the_concombre_is_split_in_ff() {
         driver = new FirefoxDriver();
-        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
         driver.get("https://squash-tf.readthedocs.io/en/latest/");
         a = 5;
         c = 11;
@@ -39,7 +39,7 @@ public class AnnotationSteps {
 	
     @When("i throw it in the trashbin")
     public void i_throw_it_in_the_trashbin() throws InterruptedException {
-        Thread.sleep(30);
+        Thread.sleep(300);
         b = 6;
     }
 
