@@ -114,7 +114,7 @@
           <configuration>
 
             <featuresList>${ta.feature}</featuresList>
-            <squashRoot></squashRoot>
+            <squashRoot>toto</squashRoot>
             <!-- DryRunOptions for dryrun goal only -->
             <additionnalDryRunChecks>true</additionnalDryRunChecks>
 
