@@ -1,8 +1,8 @@
 # Automation priority: null
 # Automation status: TRANSMITTED
 # Test case importance: LOW
-Feature: Salade de concombre
-
+# language: en
+Feature: genericCommu
   Scenario: What to do when concombre is broken
     Given the concombre is split in half
     When i throw it in the trashbin
