@@ -2,7 +2,7 @@
 # Automation status: TRANSMITTED
 # Test case importance: LOW
 # language: en
-Feature: concombreFenetreCommunity
+Feature: concombreDeMigrationEntToCom
     Scenario: What to do when concombre is broken
     Given the concombre is split in half
     When i throw it in the trashbin
