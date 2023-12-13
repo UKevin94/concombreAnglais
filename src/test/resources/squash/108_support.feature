@@ -15,3 +15,8 @@ Feature: support
 		Examples:
 		| userPassword |
 		| "admin" |
+
+		@dataset3
+		Examples:
+		| userPassword |
+		| "123456" |
