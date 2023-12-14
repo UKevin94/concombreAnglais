@@ -5,7 +5,7 @@ Feature: zzzzzzz
 		Given bdd belongs in the trashbin
 		When I add a value with param only <par>
 
-		@d1
+		@d1_d2
 		Examples:
 		| par |
 		| "\222" |
