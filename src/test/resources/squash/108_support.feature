@@ -5,18 +5,19 @@ Feature: support
 		Given ceci est une action filler
 		When je lance mon test
 		Then la variable "toto" contient la valeur <userPassword>
+		And ceci va contenir que des chiffres '<number>'
 
 		@dataset1
 		Examples:
-		| userPassword |
-		| "user1" |
+		| number | userPassword |
+		| 123 | "user1" |
 
 		@dataset2
 		Examples:
-		| userPassword |
-		| "admin" |
+		| number | userPassword |
+		| 456 | "admin" |
 
 		@dataset3
 		Examples:
-		| userPassword |
-		| "123456" |
+		| number | userPassword |
+		| 789 | "123456" |
